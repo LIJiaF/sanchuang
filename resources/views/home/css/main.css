@@ -1,0 +1,343 @@
+#pubbtn{
+	position: absolute;
+	top:120px;
+	right:100px;
+	padding:30px 60px;
+	background: rgba(0,0,0,0.4);
+	border-radius: 10px;
+}
+#pubbtn a{
+	display: block;
+	padding:10px 30px;			
+	border:none;
+	color:#fff;
+	font-size:18px;
+	margin:15px 0;
+	font-weight: bold;
+	border-radius: 5px;
+}
+#neebtn{
+	background:rgba(53,167,193,0.8);
+}
+#neebtn:hover{
+	background:#398193;
+}
+#frubtn{
+	background: rgba(253,110,72,0.8);
+}
+#frubtn:hover{
+	background: #B95F48;
+}
+
+/* 轮播图代码开始 */
+.loop{
+	width:1200px;
+	height:400px;
+	overflow: hidden;
+	position:relative;
+}
+.loop ul{
+	position:absolute;
+	left:0;
+	width:3600px;
+	list-style:none;
+}
+.loop ul li{
+	float:left;
+}
+#btn{
+	position:absolute;
+	width:100%;
+	bottom:10px;
+	text-align:center;
+}
+#btn span{
+	display: inline-block;
+	width:18px;
+	height:18px;
+	line-height: 18px;
+	text-align: center;
+	font-size: 12px;
+	margin:0 10px;
+	cursor: pointer;
+	color:#fff;
+	border-radius:50%;
+	background:#3E3E3E;
+}
+#btn span.active{
+	background: #8C0000;
+}
+.arrow{
+	position:absolute;
+	top:50%;
+	margin-top:-40px;
+	width:40px;
+	height:80px;
+	line-height: 80px;
+	text-align: center;
+	color:#fff;
+	font-size:20px;
+	background: #AAA5A0;
+	background: rgba(0,0,0,0.3);
+}
+.arrow:hover{
+	background: #645F5D;
+	background: rgba(0,0,0,0.6);
+}
+#prev{
+	left:5px;
+}
+#next{
+	right:5px;
+}
+/* 轮播图代码结束 */
+
+/* 番职要闻代码开始 */
+.news{
+	width:1200px;
+	overflow: hidden;
+}
+.news h1{
+	margin:15px 0;
+	font-size:18px;
+	height: 45px;
+	line-height: 45px;
+	padding-left: 0px;
+	font-weight: normal;
+	border-bottom: 2px solid #35A7C1;
+}
+.news h1 a{
+	display: block;
+	margin-right: 5px;
+	color:#35A7C1;
+	font-size:12px;
+}
+.news h1 a:hover{
+	text-decoration: underline;
+}
+.newsImportant{
+	width:280px;
+	margin:15px 10px;
+	overflow: hidden;
+}
+.newsImportant img{
+	width:280px;
+	height:175px;
+	border:none;
+}
+.newsImportant h2{
+	font-size:14px;
+	text-align: center;
+	cursor: pointer;
+	font-weight: normal;
+	line-height: 30px;
+}
+.newsImportant h2:hover{
+	color: #8C0000;
+}
+.newsImportant p{
+	color:gray;
+	text-indent: 2em;
+	font-size: 12px;
+}
+.newsList{
+	float:left;
+	width:665px;
+	list-style: none;
+}
+.newsList li{
+	float:left;
+	padding:15px 10px;
+	width:300px;
+	height:35px;
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+}
+.newsList li:nth-child(2n){
+	margin-left:20px;
+}
+.newsList li a:hover{
+	color:#8C0000;
+}
+/* 番职要闻代码结束 */
+
+/* 主体部分代码开始 */
+.main{
+	width:1200px;
+	margin-top:10px;
+	clear:both;
+	overflow: hidden;
+}
+
+/* 左边代码开始 */
+.mainLeft{
+	width:720px;
+}
+
+/* 通知公告代码开始 */
+.public h1{
+	margin:15px 0;
+	font-size:16px;
+	height: 45px;
+	line-height: 45px;
+	font-weight: normal;
+	border-bottom: 2px solid #35A7C1;
+}
+.public h1 a{
+	display:block;
+	color:#35A7C1;
+	padding-left:55px;
+	padding-top: 1px;
+	background: url(../images/icon/more.png) center no-repeat;
+}
+.public h1 a:hover{
+	text-decoration:underline;
+}
+.publicList{
+	list-style: none;
+}
+.publicList li{
+	height:30px;
+	line-height: 30px;
+	margin:10px 0;
+	padding-left:10px;
+}
+.publicList li a{
+	display: block;
+	width:620px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.publicList li span{
+	display: block;
+	float:right;
+	font-size:12px;
+	font-style: italic;
+	color:gray;
+}
+.publicList li a:hover{
+	color:#8C0000;
+	text-decoration: underline;
+}
+/* 通知公告代码结束 */
+
+/* 左边代码结束 */
+
+/* 右边代码开始 */
+.mainRight{
+	width:430px;
+}
+
+/* banner栏目代码开始 */
+.banner{
+	position: relative;
+	margin-top: 20px;
+	width:400px;
+	border:1px solid #C9C9C9;
+	border-radius: 0 0 5px 5px;
+}
+.banner h1 img{
+	width:400px;
+}
+.banner ul{
+	padding-bottom: 20px;
+}
+.banner ul li{
+	list-style-type: none;
+	padding:10px 15px;
+	overflow: hidden;
+}
+.banner ul li a{
+	display: block;
+	width:300px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.banner ul li a:hover{
+	text-decoration: underline;
+}
+.banner ul li span{
+	display: block;
+	float:right;
+	font-size:12px;
+	font-style: italic;
+	color:gray;
+}
+.bannerfooter a{
+	display: block;
+	width:300px;
+	margin:10px auto;
+	margin-top:30px;
+	text-align: center;
+	padding:5px 0;
+	border:1px solid #FD6E48;
+}
+.bannerfooter a:hover{
+	color:#fff;
+	background: #FD6E48;
+}
+/* banner栏目代码结束 */
+
+/* 右边代码结束 */
+
+/* 主体部分代码结束 */
+
+/*友情链接代码开始*/
+.alink{
+	margin:20px auto;
+	width:1200px;
+	overflow: hidden;
+}
+.alink h1{
+	padding:30px 25px 0 10px;
+	height: 125px;
+	font-size:18px;
+	font-weight:normal;
+}
+.alink ul{
+	margin:0 auto;
+}
+.alink ul li{
+	margin:0 15px;
+	position: relative;
+	list-style: none;
+	height:155px;
+	width:155px;
+	overflow: hidden;
+	float:left;
+	cursor: pointer;
+	border:2px solid #35A7C1;
+}
+.alink ul li img{
+	position: absolute;
+	top:50%;
+	left:50%;
+	height:155px;
+	width:155px;
+	transform: translate(-50%,-50%);
+}
+.alink ul li a{
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width:100%;
+	height: 0px;
+	line-height: 30px;
+	text-align: center;
+	color:#fff;
+	background: rgba(0,0,0,0.6);
+}
+.alink ul li i{
+	position: absolute;
+	top:0;
+	right: 0;
+	z-index: 999;
+	display: block;
+	border-top:10px solid #35A7C1;
+	border-right:10px solid #35A7C1;
+	border-left:10px solid transparent;
+	border-bottom:10px solid transparent;
+}
+/*友情链接代码结束*/

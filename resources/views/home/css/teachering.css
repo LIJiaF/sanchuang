@@ -1,0 +1,275 @@
+.fruitclass{
+	margin:15px auto;
+	padding:0 20px;
+	width:1160px;
+	border:1px solid #ccc;
+}
+.fruitclass td{
+	padding:15px;
+	vertical-align: top;
+}
+.fruitclass td li{
+	list-style-type: none;
+	float:left;
+	line-height: 25px;
+	padding-right:40px;
+}
+.fruitclass td li a:hover{
+	text-decoration: underline;
+}
+.assessclass{
+	margin:0 auto;
+	width:1200px;
+	position: relative;
+}
+.description{
+	position: absolute;
+	top:130px;
+	right:310px;
+	color:#fff;
+	font-size: 22px;
+}
+.seek{
+	position: absolute;
+	top:210px;
+	right:360px;
+	color:#fff;
+	font-size: 18px;
+	padding:5px 15px;
+	background: #FB2F00;
+	border-radius: 5px;
+}
+.assess{
+	position: absolute;
+	top:210px;
+	right:230px;
+	color:#fff;
+	font-size: 18px;
+	padding:5px 15px;
+	background: #FFA127;
+	border-radius: 5px;
+}
+.phone{
+	position: absolute;
+	top:295px;
+	right:210px;
+	color:#fff;
+	font-size: 16px;
+	padding:5px 15px;
+	border-radius: 5px;
+}
+.link_container{
+	min-height: 500px;
+}
+.linkclass{
+	position: relative;
+	margin:50px auto;
+	width:1180px;
+	padding:10px;
+	border:1px solid #35A7C1;
+}
+.linkclass_title{
+	position: absolute;
+	top:-12px;
+	width:100px;
+	text-align: center;
+	border:2px solid #35A7C1;
+	background: #fff;
+}
+.linkclass_nav{
+	list-style: none;
+	overflow: hidden;
+	padding:10px 20px 0 20px;
+}
+.linkclass_nav li{
+	float:left;
+	width:12%;
+	line-height: 30px;
+	text-align: center;
+}
+.linkclass_nav li a:hover{
+	text-decoration: underline;
+}
+.laboratoryclass{	
+	margin: 0 auto;
+	width:1200px;
+	height: 537px;
+	background: rgba(0,0,0,0.8);
+}
+.laboratorycontainer{
+	width:1200px;
+	margin:10px auto;
+	min-height: 400px;
+}
+.laboratorycontainer h1{
+	text-align: center;
+	font-size: 22px;
+	padding:20px 0;
+	font-weight: normal;
+	border-bottom: 2px solid #35A7C1;
+}
+.laboratorylist li{
+	position: relative;
+	list-style: none;
+	float:left;
+	margin:30px 10px;
+	width:276px;
+}
+.laboratorylist li a{	
+	position: relative;
+	display: block;
+	width:276px;
+	height:170px;
+	overflow: hidden;
+	border-radius: 5px;
+}
+.laboratorylist li a img{
+	position: relative;
+	width:276px;
+	height:170px;
+	border-radius: 5px;
+}
+.laboratorylist li a .laboratoryhide{
+	display: none;
+	position: absolute;
+	top:0;
+	left:0;
+	bottom: 0;
+	right:0;
+	padding-top:40px;
+	text-align: center;
+	background: rgba(0,0,0,0.6);
+}
+.laboratorylist li:hover a .laboratoryhide{
+	display: block;
+}
+.laboratorylist li .laboratoryhide p{
+	color:#fff;
+	padding:0 10px;
+	line-height: 25px;
+	margin-bottom: 10px;
+}
+.laboratorylist li .laboratorybtn{
+	margin:10px auto;
+	text-align: center;
+	width:250px;
+	padding:5px 0;
+	border:1px solid #35A7C1;
+	border-radius: 5px;
+}
+.laboratorylist li .laboratorybtn:hover{
+	color:#fff;
+	background: #35A7C1;
+}
+
+
+.container{
+	width:1200px;
+	margin:0 auto;
+	min-height: 500px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+.con-left{
+	float:left;
+	width:850px;
+}
+.title{
+	color: #336633;
+	font-size: 18px;
+	font-weight: normal;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #35A7C1;
+}
+.title small{
+	font-size:14px;
+}
+.title_small{
+	margin:10px 0;
+	padding:4px 50px;
+	font-size: 20px;
+	background: url('../images/assess_icon.png') no-repeat;
+}
+.title_content{
+	line-height: 25px;
+	padding:4px 10px 4px 50px;
+	text-indent: 2em;
+}
+.title_flow{
+	margin:10px 100px;
+	width:600px;
+}
+
+.total{
+	float: right;
+	font-size: 14px;
+} 
+.content{
+	line-height: 35px;
+	padding:5px 10px;
+	border-bottom: 1px solid #D8EBD8;
+}
+.content a:hover{
+	text-decoration: underline;
+}
+.time{
+	float:right;
+	color:gray;
+	font-size: 12px;
+	font-style: italic;
+}
+.con-right{
+	float:right;
+	width:300px;
+	padding:0;
+}
+.con-right-title a{
+	display: block;
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	font-size:16px;
+	color:#fff;
+	font-weight: bold;
+	margin-bottom: 20px;
+	background: #FD6E48;
+}
+.con-right-title a:hover{	
+	background: #3BC9CB;
+}
+.view{
+	margin-bottom: 30px;
+	border:1px solid #ccc;
+}
+.view-title{
+	background: #3BC9CB;
+	color: #fff;
+	height:40px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 40px;
+}
+.view li{
+	margin:0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding-left:10px;
+	line-height: 35px;
+}
+.view li a:hover{
+	text-decoration: underline;
+}
+.block{
+	display: inline-block;
+	width:16px;
+	height:16px;
+	line-height: 16px;
+	font-size: 12px;
+	color: #fff;
+	border-radius: 3px;
+	background: gray;
+	text-align: center;
+	margin-right: 8px;
+}

@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'icon';
+    src:url('../fonts/icon.eot?lz8oic');
+    src:url('../fonts/icon.eot?lz8oic#iefix') format('embedded-opentype'),
+        url('../fonts/icon.ttf?lz8oic') format('truetype'),
+        url('../fonts/icon.woff?lz8oic') format('woff'),
+        url('../fonts/icon.svg?lz8oic#icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icon' !important;
+    speak: none;
+    color:#333;
+    font-size:16px;
+    padding-right:5px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.iconH {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icon' !important;
+    position:relative;
+    top:1px;
+    speak: none;
+    color:#fff;
+    font-size:18px;
+    padding-right:10px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+    content: "\e900";
+}
+.icon-books:before {
+    content: "\e901";
+}
+.icon-file-text:before {
+    content: "\e902";
+}
+.icon-users:before {
+    content: "\e903";
+}
+.icon-command:before {
+    content: "\e904";
+}
+.icon-mail2:before {
+    content: "\e905";
+}

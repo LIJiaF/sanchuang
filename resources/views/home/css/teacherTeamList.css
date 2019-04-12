@@ -1,0 +1,36 @@
+.container{
+	width:990px;
+	margin:0 auto;
+	padding:20px 0;
+}
+.local{
+	color: gray;
+}
+.local a:hover{
+	text-decoration: underline;
+}
+.title{
+	font-size: 18px;
+	color:#666;
+	margin-top: 40px;
+	text-align: center;
+	line-height: 60px;
+}
+.description{
+	text-align: center;
+	color:#999;
+}
+.description span{
+	display: inline-block;
+	margin:0 100px;
+}
+.content{
+	text-align: center;
+	padding:20px;
+}
+.content p{
+	text-indent: 2em;
+	line-height: 25px;
+	text-align: left;
+	padding:10px;
+}

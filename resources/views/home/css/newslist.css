@@ -1,0 +1,46 @@
+.content{
+	margin:60px auto;
+	width:1200px;
+	min-height:600px;
+}
+.position a:hover{
+	text-decoration: underline;
+}
+.newslist{
+	margin:20px auto;
+	width:900px;
+	padding:20px 50px;
+}
+.newslist h1{
+	text-align: center;
+	font-size: 18px;
+	font-weight:normal;
+	color:#293E6B;
+	line-height: 100px;
+}
+.newslist h2{
+	font-weight:normal;
+	text-align: center;
+	color:gray;
+	height:35px;
+	padding-left:80px;
+	line-height: 35px;
+}
+.newslist h2 span{
+	margin-right:120px;
+}
+.newslistcontent{
+	margin-top:20px;
+	text-align: center;
+}
+.newslistcontent img{
+	max-width:800px;
+	min-width: 500px;
+}
+.newslistcontent p{
+	font-family: '微软雅黑';
+	padding:10px;
+	line-height: 30px;
+	text-indent: 2em;
+	text-align: left;
+}
